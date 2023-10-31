@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
-import PostalcodeTextInput from './assets/components/PostalcodeSearchInput';
+import PostalcodeTextInput from './components/PostalcodeTextInput';
 
 export default function App() {
   return (
