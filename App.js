@@ -18,4 +18,10 @@ const styles = StyleSheet.create({
     flexDirection:'column',   
     flex: 1,
   }, 
+  header: {
+    flex: 1,
+  },
+  menu: {
+    flex: 3,
+  },
 });
