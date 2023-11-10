@@ -16,11 +16,10 @@ const Headers = () => {
 
 const styles = StyleSheet.create({
   headers: {
-    flexDirection: 'column',
+    flexDirection: 'row',
     backgroundColor: 'blue',
-    height: '150px',
-    width: '420px',
-  }
+    padding: '10px',
+    }
 });
 
 export default Headers;

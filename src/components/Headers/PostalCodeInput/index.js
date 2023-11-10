@@ -24,11 +24,13 @@ const PostalCodeInput = () => {
 
 const styles = StyleSheet.create({
   button: {
+    flexDirection: 'row',
+    alignItems: 'center',
     heigh: '20px',
     width: '20px', 
     textAlign: 'center',
-    alignItems: 'center',
     alignContent: 'center',
+    borderCurve: 'round',
   },
   input: {                              
     color: 'white',

@@ -15,8 +15,6 @@ const Menu = () => {
 const styles = StyleSheet.create({
 
   view: {
-    flexDirection: 'column',
-    justifyContent: 'center',
     }
 });
 
