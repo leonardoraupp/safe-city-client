@@ -1,19 +1,21 @@
-import { StyleSheet, Text, View } from 'react-native';
-import PostalcodeTextInput from './components/PostalcodeTextInput';
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
+import Headers from './src/components/Headers';
+import Menu from './src/components/Menu';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <PostalcodeTextInput/>
+      <Headers style={ styles.header}/>
+      <Menu style={styles.menu}/>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    flexDirection:'column',   
+    flex: 1,
+  }, 
 });
