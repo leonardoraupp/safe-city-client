@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 
 export default function Title() {
   return (
-    <View style={styles.view}>
+    <View style={styles.conteiner}>
       <Text style={styles.text}>SafeCity</Text>
     </View>
   );
@@ -11,12 +11,14 @@ export default function Title() {
 
 const styles = StyleSheet.create({
   text: {
-    fontFamily: 'Helvetica Neue',
-    padding: '10px',
+    fontFamily: 'Comic Sans MS',
     color: 'white',
   },
-  view: {
+  conteiner: {
     flexDirection: 'row',
-    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
+    padding: '8px',
+    margin: '8px',
   },
 });

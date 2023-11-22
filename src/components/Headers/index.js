@@ -7,7 +7,7 @@ const Headers = () => {
   const [number, onChangeNumber] = React.useState('');
 
   return (
-    <View style={styles.headers}>     
+    <View style={styles.container}>     
         <Title/>
         <PostalCodeInput/>
     </View>
@@ -15,10 +15,13 @@ const Headers = () => {
 };
 
 const styles = StyleSheet.create({
-  headers: {
-    flexDirection: 'row',
-    backgroundColor: 'blue',
-    padding: '10px',
+  container: {
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+    backgroundColor: '#588157',
+    height:'16%',
+    width:'100%',
+    padding: '8px',
     }
 });
 
