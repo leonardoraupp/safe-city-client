@@ -17,10 +17,9 @@ const Headers = () => {
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'column',
+    flex: 2,
     alignItems: 'flex-start',
     backgroundColor: '#588157',
-    height:'16%',
-    width:'100%',
     padding: '8px',
     }
 });

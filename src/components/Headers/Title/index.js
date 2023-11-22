@@ -10,10 +10,6 @@ export default function Title() {
 }
 
 const styles = StyleSheet.create({
-  text: {
-    fontFamily: 'Comic Sans MS',
-    color: 'white',
-  },
   conteiner: {
     flexDirection: 'row',
     justifyContent: 'center',
@@ -21,4 +17,9 @@ const styles = StyleSheet.create({
     padding: '8px',
     margin: '8px',
   },
+  text: {
+    color: "#fff",
+    fontFamily: 'Comic Sans MS',
+    fontSize: '20px',
+  }
 });
